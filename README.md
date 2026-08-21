@@ -132,7 +132,7 @@ where:
 - \(j\) indexes measurement occasions;
 - \(b_{0i}\) is the student-specific random intercept;
 - \(b_{1i}\) is the student-specific random slope;
-- \(\epsilon_{ij}\) is the residual error.
+- ($$\epsilon_{ij}\$$) is the residual error.
 
 ---
 
@@ -283,9 +283,7 @@ The final model was refitted using **REML** for estimation of the final model pa
 Conceptually, the final model can be written as:
 
 
-\[
-BMI_{ij}
-=
+$$BMI_{ij}=
 \beta_0
 +
 \beta_1 Time_{ij}
