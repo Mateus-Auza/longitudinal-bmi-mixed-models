@@ -103,7 +103,7 @@ A mixed-effects model accounts for this dependence by introducing **student-spec
 
 A general form of the model is:
 
-$$
+\[
 BMI_{ij}
 =
 \beta_0
@@ -124,8 +124,8 @@ b_{0i}
 +
 b_{1i}Time_{ij}
 +
-\epsilon_{ij}.
-$$
+\epsilon_{ij}
+\]
 
 where:
 
@@ -283,7 +283,8 @@ The final model was refitted using **REML** for estimation of the final model pa
 
 Conceptually, the final model can be written as:
 
-$$
+
+\[
 BMI_{ij}
 =
 \beta_0
@@ -300,8 +301,8 @@ b_{0i}
 +
 b_{1i}Time_{ij}
 +
-\epsilon_{ij},
-$$
+\epsilon_{ij}
+\]
 
 with residual variance allowed to vary across measurement occasions.
 
@@ -566,4 +567,4 @@ The presentation provides additional details on the study context, model selecti
 Master's Student in Statistics  
 **UCLouvain — Université catholique de Louvain**
 
-This project was developed as part of coursework in statistical modelling.
+This project was developed as part of coursework in LSTAT2210-Linear mixed models.
