@@ -527,22 +527,6 @@ The dataset used for the analysis is provided in the `data/` directory.
 
 The main analysis can be reproduced by running the R script after installing the required packages.
 
-The original script should use a repository-relative path to the data rather than a local machine-specific path.
-
-For example:
-
-```r
-bmi <- read.csv("data/csv_version.csv")
-```
-
-rather than:
-
-```r
-setwd("C:\\Users\\mtpla\\Downloads")
-```
-
-This allows the project to be run on another computer after cloning the repository.
-
 ---
 
 # Presentation
