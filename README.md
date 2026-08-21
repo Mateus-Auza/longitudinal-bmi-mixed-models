@@ -103,7 +103,8 @@ A mixed-effects model accounts for this dependence by introducing **student-spec
 
 A general form of the model is:
 
-\[BMI_{ij}=
+$$ 
+BMI_{ij}=
 \beta_0
 +
 \beta_1 Time_{ij}
@@ -123,7 +124,7 @@ b_{0i}
 b_{1i}Time_{ij}
 +
 \epsilon_{ij}
-\]
+$$
 
 where:
 
