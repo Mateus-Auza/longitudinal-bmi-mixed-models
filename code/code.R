@@ -14,7 +14,6 @@ library(tidyverse)
 # Preprocessing
 #-------------------------------------------
 
-setwd("C:\\Users\\mtpla\\Downloads")
 bmi=read.csv("Datafile 28732200.csv")
 bmi
 
