@@ -128,10 +128,10 @@ $$
 
 where:
 
-- \(i\) indexes students;
-- \(j\) indexes measurement occasions;
-- \(b_{0i}\) is the student-specific random intercept;
-- \(b_{1i}\) is the student-specific random slope;
+- ($i$) indexes students;
+- ($j$) indexes measurement occasions;
+- ($b_{0i}$) is the student-specific random intercept;
+- ($b_{1i}$) is the student-specific random slope;
 - ($$\epsilon_{ij}\$$) is the residual error.
 
 ---
@@ -299,7 +299,7 @@ b_{0i}
 b_{1i}Time_{ij}
 +
 \epsilon_{ij}
-\]
+$$
 
 with residual variance allowed to vary across measurement occasions.
 
